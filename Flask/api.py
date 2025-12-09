@@ -9,7 +9,7 @@ items = [
 
 @app.route("/")
 def welcome():
-    return "Welcome to the home page"
+    return "Welcome to the Home page"
 
 @app.route("/items")
 def get_items():
